@@ -99,7 +99,7 @@ De website is volledig statisch en direct deploybaar naar GitHub Pages:
 
 ## Nog aan te passen
 
-- [ ] Facebook pagina URL invullen (meerdere locaties in index.html)
+- [x] Facebook pagina URL gekoppeld
 - [ ] E-mailadres vervangen in contact sectie
 - [ ] Instagram link toevoegen (optioneel)
 - [x] Echte tekeningen toegevoegd aan galerie (hert, hond, ijsvogel, uil, vos, zwarte kat)
