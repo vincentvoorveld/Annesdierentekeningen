@@ -100,8 +100,8 @@ De website is volledig statisch en direct deploybaar naar GitHub Pages:
 ## Nog aan te passen
 
 - [x] Facebook pagina URL gekoppeld
-- [ ] E-mailadres vervangen in contact sectie
-- [ ] Instagram link toevoegen (optioneel)
+- [x] E-mailadres vervangen in contact sectie
+- [x] Instagram link verwijderd (niet nodig)
 - [x] Echte tekeningen toegevoegd aan galerie (hert, hond, ijsvogel, uil, vos, zwarte kat)
 
 ## Development
