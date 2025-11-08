@@ -51,13 +51,12 @@
    - Responsive grid layout
 
 5. **Bestellen**
-   - Prijsinformatie (€50 voor A4 kleurpotlood)
-   - Specificaties (formaat, materialen)
+   - Specificaties (A4 formaat, wit papier, kleurpotlood)
    - Extra informatie over maatwerk
 
 6. **Contact**
-   - Facebook link (nog in te vullen)
-   - E-mail link (nog in te vullen)
+   - Facebook link naar Anne's pagina
+   - E-mail link naar anne.van.nieuwenhuizen@gmail.com
    - Geen werkend formulier (zoals gevraagd)
 
 7. **Footer**
