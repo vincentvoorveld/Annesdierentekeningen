@@ -14,13 +14,14 @@
 ├── index.html              # Hoofdpagina met alle secties
 ├── style.css               # Styling met warme pastelkleuren
 ├── script.js               # Lightbox en smooth scrolling functionaliteit
-├── images/                 # Galerie afbeeldingen (6 echte tekeningen van Anne)
-│   ├── placeholder-1.jpg   # Hert
-│   ├── placeholder-2.jpg   # Golden Retriever
-│   ├── placeholder-3.jpg   # IJsvogel
-│   ├── placeholder-4.jpg   # Uil
-│   ├── placeholder-5.jpg   # Vos
-│   └── placeholder-6.jpg   # Zwarte kat
+├── images/                 # Galerie afbeeldingen en foto's
+│   ├── anne-portret.jpg    # Portretfoto van Anne
+│   ├── placeholder-1.jpg   # Hert tekening
+│   ├── placeholder-2.jpg   # Golden Retriever tekening
+│   ├── placeholder-3.jpg   # IJsvogel tekening
+│   ├── placeholder-4.jpg   # Uil tekening
+│   ├── placeholder-5.jpg   # Vos tekening
+│   └── placeholder-6.jpg   # Zwarte kat tekening
 ├── README.md               # Project documentatie
 └── replit.md               # Dit bestand
 ```
@@ -37,9 +38,11 @@
    - Gradient achtergrond in pastelkleuren
 
 3. **Over Anne**
+   - Portretfoto van Anne
    - Persoonlijke introductie
    - Informatie over technieken en materialen
    - Expositielocaties
+   - Responsive layout: afbeelding naast tekst (desktop) of boven tekst (mobiel)
 
 4. **Galerie**
    - 6 echte tekeningen van Anne (hert, hond, ijsvogel, uil, vos, zwarte kat)
@@ -115,3 +118,4 @@ De website draait op een Python HTTP server op poort 5000.
   - JavaScript voor lightbox en smooth scrolling
   - Workflow configuratie voor lokale development
   - Echte tekeningen van Anne toegevoegd aan galerie (hert, golden retriever, ijsvogel, uil, vos, zwarte kat)
+  - Portretfoto van Anne toegevoegd aan "Over Anne" sectie met responsive grid layout

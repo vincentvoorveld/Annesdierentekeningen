@@ -157,8 +157,26 @@ section h2::after {
 }
 
 .about-content {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.about-image {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px var(--shadow);
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
 }
 
 .about-text {
@@ -491,6 +509,11 @@ footer {
     
     section h2 {
         font-size: 1.8rem;
+    }
+    
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
     
     .about-text,
