@@ -14,13 +14,13 @@
 ├── index.html              # Hoofdpagina met alle secties
 ├── style.css               # Styling met warme pastelkleuren
 ├── script.js               # Lightbox en smooth scrolling functionaliteit
-├── images/                 # Galerie afbeeldingen (6 placeholder images)
-│   ├── placeholder-1.jpg   # Hond
-│   ├── placeholder-2.jpg   # Hond
-│   ├── placeholder-3.jpg   # Kat
-│   ├── placeholder-4.jpg   # Kat
-│   ├── placeholder-5.jpg   # Paard
-│   └── placeholder-6.jpg   # Paard
+├── images/                 # Galerie afbeeldingen (6 echte tekeningen van Anne)
+│   ├── placeholder-1.jpg   # Hert
+│   ├── placeholder-2.jpg   # Golden Retriever
+│   ├── placeholder-3.jpg   # IJsvogel
+│   ├── placeholder-4.jpg   # Uil
+│   ├── placeholder-5.jpg   # Vos
+│   └── placeholder-6.jpg   # Zwarte kat
 ├── README.md               # Project documentatie
 └── replit.md               # Dit bestand
 ```
@@ -42,7 +42,7 @@
    - Expositielocaties
 
 4. **Galerie**
-   - 6 placeholder afbeeldingen (vervangbaar)
+   - 6 echte tekeningen van Anne (hert, hond, ijsvogel, uil, vos, zwarte kat)
    - Lightbox functionaliteit bij klikken
    - Keyboard navigatie (pijltjes, escape)
    - Responsive grid layout
@@ -99,8 +99,7 @@ De website is volledig statisch en direct deploybaar naar GitHub Pages:
 - [ ] Facebook pagina URL invullen (meerdere locaties in index.html)
 - [ ] E-mailadres vervangen in contact sectie
 - [ ] Instagram link toevoegen (optioneel)
-- [ ] Placeholder afbeeldingen vervangen door echte tekeningen
-- [ ] Meta tags en SEO optimaliseren voor zoekmachines
+- [x] Echte tekeningen toegevoegd aan galerie (hert, hond, ijsvogel, uil, vos, zwarte kat)
 
 ## Development
 
@@ -114,5 +113,5 @@ De website draait op een Python HTTP server op poort 5000.
   - HTML structuur met alle gevraagde secties
   - CSS styling met warme pastelkleuren
   - JavaScript voor lightbox en smooth scrolling
-  - Stock images als placeholders voor galerie
   - Workflow configuratie voor lokale development
+  - Echte tekeningen van Anne toegevoegd aan galerie (hert, golden retriever, ijsvogel, uil, vos, zwarte kat)
