@@ -1,0 +1,62 @@
+Maak een eenvoudige maar professionele website voor “Anne’s Dieren Tekeningen”.  
+De site moet volledig in HTML, CSS en een beetje JavaScript zijn, zodat hij eenvoudig te koppelen is aan GitHub Pages.  
+Gebruik een warme, vriendelijke uitstraling: zachte kleuren (wit, beige, lichtroze, pastelgroen) en een duidelijke leesbare letter (zoals Poppins of Lato).  
+
+Structuur van de site:
+
+1. **Header**  
+   - Titel: “Anne’s Dieren Tekeningen”  
+   - Subtitel: “Unieke tekeningen van jouw dier, met liefde gemaakt”  
+   - Navigatiebalk met links naar: Home – Over Anne – Galerie – Bestellen – Contact
+
+2. **Home-sectie**  
+   - Een grote bannerafbeelding van potloden of dieren (kan later vervangen worden).  
+   - Korte introtekst:  
+     “Welkom op de website van Anne’s Dieren Tekeningen. Hier vind je handgemaakte tekeningen van dieren, gemaakt met oog voor detail en liefde voor elk dier.”
+
+3. **Over Anne**  
+   - Tekst (samengevat en netjes opgemaakt uit de Facebook-intro):  
+     “Hoi, wat leuk dat je een kijkje neemt! Mijn naam is Anne, ik ben 18 jaar en stapelgek op dieren.  
+     Mijn grootste hobby is tekenen. Na veel oefenen heb ik mezelf verschillende technieken aangeleerd, en dieren tekenen doe ik het allerliefst.  
+     De reacties die ik krijg maken me blij, en inmiddels mag ik regelmatig tekeningen in opdracht maken.  
+     Ik gebruik potloden van Faber Castell en papier van hoge kwaliteit – zo blijven mijn tekeningen tot wel 75 jaar kleurvast!  
+     Momenteel exposeer ik bij Lou-vre in Soest en bij Kringloop Juul.  
+     Wat goed is om te weten: ik heb autisme en een licht verstandelijke beperking, waardoor ik niet goed onder tijdsdruk kan werken.  
+     Maar als ik de tijd krijg, maak ik iets waar ik écht trots op ben.”  
+
+4. **Galerie**  
+   - Raster met voorbeeldafbeeldingen van tekeningen (gebruik tijdelijk stockfoto’s van dieren, of placeholders).  
+   - Elke afbeelding opent groter in een pop-up bij klikken.
+
+5. **Bestellen**  
+   - Uitleg:  
+     “Wil jij een tekening van jouw geliefde dier? Dat kan!  
+     - A4 formaat  
+     - Wit papier  
+     - In kleurpotlood  
+     - Richtprijs: €50,00  
+     In overleg maak ik soms ook tekeningen van mensen of combinaties. Neem gerust contact op voor mogelijkheden.”  
+
+6. **Contact**  
+   - Eenvoudig contactformulier (naam, e-mail, bericht).  
+   - Tekst: “Je kunt ook contact opnemen via mijn Facebookpagina of e-mail.”  
+   - Voeg een knop toe: “Bezoek mijn Facebookpagina” (met link die later kan worden ingevuld).  
+
+7. **Footer**  
+   - Tekst: “© 2025 Anne’s Dieren Tekeningen | Gemaakt met ♥”  
+   - Social media iconen (Facebook, eventueel Instagram).
+
+Extra eisen:
+- Gebruik CSS voor zachte schaduwen, ronde hoeken en een rustige uitstraling.
+- Geen externe frameworks zoals Bootstrap.
+- Voeg een `style.css` en `script.js` bestand toe.
+- Zorg dat alle links en secties netjes scrollen (smooth scroll).
+- Voeg meta-tags toe voor goede weergave op mobiel en Google.
+
+Bestandsstructuur:
+- `index.html`
+- `style.css`
+- `script.js`
+- map `/images/` voor tekeningen
+
+De site moet volledig lokaal werken en geschikt zijn om naar GitHub te pushen via “Connect to GitHub”.
