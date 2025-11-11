@@ -111,6 +111,14 @@ De website draait op een Python HTTP server op poort 5000.
 
 ## Recent Changes
 
+- 2025-11-11: Grote update van galerie en content
+  - Galerie opgedeeld in 4 categorieën: Aquarel (1), Balpoint Pen (2), Fineliner (2), Kleurpotlood (10)
+  - 15 nieuwe tekeningen toegevoegd aan images/gallery/ map
+  - "Over Anne" tekst bijgewerkt met informatie over technieken en groei
+  - Instagram link toegevoegd aan footer ("Volg me op Instagram")
+  - CSS aangepast voor galerie categorieën met duidelijke titels en hover effecten
+  - Footer redesigned met tekst + iconen voor sociale media links
+
 - 2025-11-08: Initiële opzet van de volledige website
   - HTML structuur met alle gevraagde secties
   - CSS styling met warme pastelkleuren
