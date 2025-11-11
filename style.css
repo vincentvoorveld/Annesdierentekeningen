@@ -212,11 +212,28 @@ section h2::after {
     font-size: 1.1rem;
 }
 
+.gallery-category {
+    margin-bottom: 60px;
+}
+
+.gallery-category:last-child {
+    margin-bottom: 0;
+}
+
+.category-title {
+    font-size: 1.8rem;
+    color: var(--text-dark);
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--accent-color);
+    font-weight: 600;
+}
+
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
 }
 
 .gallery-item {
@@ -399,20 +416,33 @@ footer {
     margin: 0;
 }
 
-.social-icons {
+.footer-links {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.social-icons a {
+.footer-link {
     color: var(--white);
-    transition: color 0.3s ease, transform 0.3s ease;
-    display: inline-block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
 }
 
-.social-icons a:hover {
-    color: var(--secondary-color);
-    transform: scale(1.2);
+.footer-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.footer-link svg {
+    flex-shrink: 0;
 }
 
 .lightbox {
