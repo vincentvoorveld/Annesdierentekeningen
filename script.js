@@ -80,3 +80,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+// Galerie: filters en toetsenbordbediening
+ document.addEventListener('DOMContentLoaded',()=>{
+ const filters=Array.from(document.querySelectorAll('.gallery-filter'));
+ const categories=Array.from(document.querySelectorAll('.gallery-category[data-category]'));
+ filters.forEach(button=>button.addEventListener('click',()=>{
+ const filter=button.dataset.filter;
+ filters.forEach(b=>{const active=b===button;b.classList.toggle('is-active',active);b.setAttribute('aria-pressed',String(active));});
+ categories.forEach(c=>{c.hidden=filter!=='all'&&c.dataset.category!==filter;});
+ }));
+ document.querySelectorAll('.gallery-item[role="button"]').forEach(card=>card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();card.click();}}));
+ });
