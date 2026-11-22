@@ -565,3 +565,13 @@ footer {
         font-size: 40px;
     }
 }
+/* Galerie-update november 2026: originele afbeeldingen blijven bewaard. */
+.gallery-filters{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:0 auto 40px}
+.gallery-filter{font:inherit;font-size:.95rem;border:1px solid #b0cdb3;border-radius:30px;padding:10px 18px;background:#fff;color:#4a4a4a;cursor:pointer;transition:background-color .2s,box-shadow .2s}
+.gallery-filter:hover,.gallery-filter:focus-visible{box-shadow:0 0 0 3px #c8e6c9;outline:none}
+.gallery-filter.is-active{background:#c8e6c9;font-weight:600}
+.gallery-category[hidden]{display:none!important}
+.gallery-item{background:#faf9f7;display:flex;align-items:center;justify-content:center}
+.gallery-item img{object-fit:contain}
+.gallery-item:focus-visible{outline:3px solid #448750;outline-offset:3px}
+@media(max-width:768px){.gallery-filters{gap:7px}.gallery-filter{padding:8px 12px;font-size:.85rem}}
