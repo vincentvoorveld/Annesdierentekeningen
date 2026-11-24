@@ -575,3 +575,16 @@ footer {
 .gallery-item img{object-fit:contain}
 .gallery-item:focus-visible{outline:3px solid #448750;outline-offset:3px}
 @media(max-width:768px){.gallery-filters{gap:7px}.gallery-filter{padding:8px 12px;font-size:.85rem}}
+
+/* Over Anne en contact-update november 2026 */
+.about-content{display:block;max-width:850px}
+.about-text{padding:clamp(24px,5vw,48px)}
+.about-signature{font-weight:600;color:var(--text-dark)!important}
+.contact-methods{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.contact-card{padding:26px 18px;min-width:0}
+.contact-card .btn{padding:12px 18px;justify-content:center;max-width:100%;font-size:.92rem}
+.btn-instagram{color:#fff;background:#a2468e}
+.btn-instagram:hover{background:#873777;transform:translateY(-2px);box-shadow:0 5px 15px rgba(162,70,142,.2)}
+.hero-overlay h2{margin-bottom:0}
+@media(max-width:900px){.contact-methods{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.contact-methods{grid-template-columns:1fr}.contact-card{padding:28px}.hero{min-height:340px}.hero-overlay{padding:30px 20px}}
